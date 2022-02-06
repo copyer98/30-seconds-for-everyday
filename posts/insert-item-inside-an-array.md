@@ -1,8 +1,10 @@
-# 优雅插入数组
+<!-- # 优雅插入数组 -->
+
+![封面](../images/insert-item-inside-an-array/poster.png)
 
 ## 简介
 
-> [一天 30 秒 ⏱ 一段代码 ✍️ 一个场景 🖼](https://github.com/pushmetop/30-seconds-for-everyday)
+> 数组、插入数组、性能、可读性
 
 > 代码能运行起来就行了为什么要编写优雅的代码？
 
@@ -90,7 +92,7 @@ let arr = [1,2,3,4,5];
 arr = [...[-2, -1, 0], ...arr];
 ```
 
-> 如果大家还有什么优雅的写法留言评论，也可以到 [Github](https://github.com/pushmetop/30-seconds-for-everyday) 提交。
+> 如果大家还有什么优雅的写法留言评论，也可以到 [Github](https://github.com/zhangxiangliang/30-seconds-for-everyday) 提交。
 
 ## 基准测试
 
@@ -98,10 +100,11 @@ arr = [...[-2, -1, 0], ...arr];
 * [把数据插入数组头部](https://jsperf.com/insert-item-inside-an-array-at-the-head)
 * [把数据插入数组指定位置](https://jsperf.com/insert-item-inside-an-array-at-the-merge)
 
-## 打赏&联系
+## 一起成长
 
-如果您感觉有收获，欢迎给我打赏，以激励我输出更多的优质内容。
+> 在困惑的城市里总少不了并肩同行的 `伙伴` 让我们一起成长。
 
-![打赏&联系](https://raw.githubusercontent.com/pushmetop/resource/master/donate/donate.png)
+* 如果您想让更多人看到文章可以点个 `点赞`。
+* 如果您想激励小二可以到 [Github](https://github.com/zhangxiangliang/30-seconds-for-everyday) 给个 `小星星`。
 
-> 本文原稿来自 [PushMeTop](https://github.com/pushmetop)
+> 本文原稿来自 [ZhangXiangLiang](https://github.com/zhangxiangliang)

@@ -1,8 +1,10 @@
-# 对数组项目进行统计
+<!-- # 统计数组项目 -->
+
+![封面](../images/count/poster.png)
 
 ## 简介
 
-> [一天 30 秒 ⏱ 一段代码 ✍️ 一个场景 🖼](https://github.com/pushmetop/30-seconds-for-everyday)
+> 数组、统计、遍历
 
 根据指定的方法或者参数对数组中的项目进行统计。
 
@@ -46,8 +48,6 @@ const costStat = countBy(users, i => {
         : (i.cost > 5000 ? 'mid' : 'low')
 })
 ```
-
-
 ## 相似代码
 
 判断一个数组中某个数据项出现的次数。
@@ -57,10 +57,11 @@ const costStat = countBy(users, i => {
 const countOccurrences = (arr, val) => arr.reduce((a, v) => (v === val ? a + 1 : a), 0)
 ```
 
-## 打赏&联系
+## 一起成长
 
-如果您感觉有收获，欢迎给我打赏，以激励我输出更多的优质内容。
+> 在困惑的城市里总少不了并肩同行的 `伙伴` 让我们一起成长。
 
-![打赏&联系](https://raw.githubusercontent.com/pushmetop/resource/master/donate/donate.png)
+* 如果您想让更多人看到文章可以点个 `点赞`。
+* 如果您想激励小二可以到 [Github](https://github.com/zhangxiangliang/30-seconds-for-everyday) 给个 `小星星`。
 
-> 本文原稿来自 [PushMeTop](https://github.com/pushmetop)
+> 本文原稿来自 [ZhangXiangLiang](https://github.com/zhangxiangliang)

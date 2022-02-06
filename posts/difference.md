@@ -1,8 +1,10 @@
-# 两个数组中的差集
+<!-- # 两个数组中的差集 -->
+
+![封面](../images/difference/poster.png)
 
 ## 简介
 
-> [一天 30 秒 ⏱ 一段代码 ✍️ 一个场景 🖼](https://github.com/pushmetop/30-seconds-for-everyday)
+> 数组、差集、函数
 
 根据给出的函数找出两个数组中的差集。
 
@@ -12,8 +14,6 @@ const differenceBy = (a, b, fn) => {
   return a.filter(el => !s.has(fn(el)));
 };
 ```
-
-<!--more-->
 
 ## 代码分析
 
@@ -61,11 +61,11 @@ const difference = (a, b) => {
 const differenceWith = (arr, val, comp) => arr.filter(a => val.findIndex(b => comp(a, b)) === -1)
 ```
 
+## 一起成长
 
-## 打赏&联系
+> 在困惑的城市里总少不了并肩同行的 `伙伴` 让我们一起成长。
 
-如果您感觉有收获，欢迎给我打赏，以激励我输出更多的优质内容。
+* 如果您想让更多人看到文章可以点个 `点赞`。
+* 如果您想激励小二可以到 [Github](https://github.com/zhangxiangliang/30-seconds-for-everyday) 给个 `小星星`。
 
-![打赏&联系](https://raw.githubusercontent.com/pushmetop/resource/master/donate/donate.png)
-
-> 本文原稿来自 [PushMeTop](https://github.com/pushmetop)
+> 本文原稿来自 [ZhangXiangLiang](https://github.com/zhangxiangliang)

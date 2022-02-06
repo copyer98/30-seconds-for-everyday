@@ -1,10 +1,12 @@
-# 取出对象数组中唯一的数据集
+<!-- # 唯一数据集 -->
+
+![封面](../images/unique/poster.png)
 
 ## 简介
 
-> [一天 30 秒 ⏱ 一段代码 ✍️ 一个场景 🖼](https://github.com/pushmetop/30-seconds-for-everyday)
+> 数组、对象、唯一、只出现一次、差集
 
-取出对象数组中唯一的数据集。
+取出两个对象数组中唯一的数据集，即差集。
 
 ```javascript
 // 该源码来自于 https://30secondsofcode.org
@@ -56,10 +58,11 @@ const joinOnce = filterNonUniqueBy(users, (a, b) => a.id === b.id)
 const filterNonUnique = arr => arr.filter(i => arr.indexOf(i) === arr.lastIndexOf(i))
 ```
 
-## 打赏&联系
+## 一起成长
 
-如果您感觉有收获，欢迎给我打赏，以激励我输出更多的优质内容。
+> 在困惑的城市里总少不了并肩同行的 `伙伴` 让我们一起成长。
 
-![打赏&联系](https://raw.githubusercontent.com/pushmetop/resource/master/donate/donate.png)
+* 如果您想让更多人看到文章可以点个 `点赞`。
+* 如果您想激励小二可以到 [Github](https://github.com/zhangxiangliang/30-seconds-for-everyday) 给个 `小星星`。
 
-> 本文原稿来自 [PushMeTop](https://github.com/pushmetop)
+> 本文原稿来自 [ZhangXiangLiang](https://github.com/zhangxiangliang)

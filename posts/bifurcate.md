@@ -1,8 +1,10 @@
-# 根据条件将数组分成两个集合
+<!-- # 根据条件将数组分成两个集合 -->
+
+![封面](../images/bifurcate/poster.png)
 
 ## 简介
 
-> [一天 30 秒 ⏱ 一段代码 ✍️ 一个场景 🖼](https://github.com/pushmetop/30-seconds-for-everyday)
+> 数组、拆分
 
 根据条件将数组分成两个集合。
 
@@ -52,10 +54,11 @@ const bifurcate = (arr, filter) =>
   arr.reduce((acc, val, i) => (acc[filter[i] ? 0 : 1].push(val), acc), [[], []])
 ```
 
-## 打赏&联系
+## 一起成长
 
-如果您感觉有收获，欢迎给我打赏，以激励我输出更多的优质内容。
+> 在困惑的城市里总少不了并肩同行的 `伙伴` 让我们一起成长。
 
-![打赏&联系](https://raw.githubusercontent.com/pushmetop/resource/master/donate/donate.png)
+* 如果您想让更多人看到文章可以点个 `点赞`。
+* 如果您想激励小二可以到 [Github](https://github.com/zhangxiangliang/30-seconds-for-everyday) 给个 `小星星`。
 
-> 本文原稿来自 [PushMeTop](https://github.com/pushmetop)
+> 本文原稿来自 [ZhangXiangLiang](https://github.com/zhangxiangliang)

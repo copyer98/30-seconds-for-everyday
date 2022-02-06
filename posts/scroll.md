@@ -1,10 +1,12 @@
-# 迴囬囘回到顶部
+<!-- # 迴囬囘回到顶部 -->
+
+![封面](../images/scroll/poster.png)
 
 ## 简介
 
-> [一天 30 秒 ⏱ 一段代码 ✍️ 一个场景 🖼](https://github.com/pushmetop/30-seconds-for-everyday)
+> 回到页面顶部、兼容性、最佳写法、滚动到任意处
 
-在 [大家一起被捕吧](https://github.com/pushmetop/30-seconds-for-everyday/blob/master/posts/lets-get-arrested.md) 中刚写了：
+在 [大家一起被捕吧](https://github.com/zhangxiangliang/30-seconds-for-everyday/blob/master/posts/lets-get-arrested.md) 中刚写了：
 
 > 在日常开发中我们往往会从用户那获得各种输入，例如搜索框、评论框、文章内容等等。
 
@@ -88,7 +90,7 @@ const scrollToTop = () => {
 
 ## 囬到顶部
 
-第三种写法使用函数 `Element.scrollIntoView()` 可以将选中的元素移动到 `可视区域`，`可视区域` 更多相关知识点可以看之前的一篇文章 [巧用可视区域](https://github.com/pushmetop/30-seconds-for-everyday/blob/master/posts/in-viewport.md)。
+第三种写法使用函数 `Element.scrollIntoView()` 可以将选中的元素移动到 `可视区域`，`可视区域` 更多相关知识点可以看之前的一篇文章 [巧用可视区域](https://github.com/zhangxiangliang/30-seconds-for-everyday/blob/master/posts/in-viewport.md)。
 
 ```javascript
 document.querySelector('body')
@@ -132,10 +134,11 @@ if (window.getComputedStyle && window.getComputedStyle(document.body).scrollBeha
 
 在开发中要注意浏览器的兼容性，多使用 `caniuse` 来帮助我们参看兼容性情况。并根据产品的开发需求来书写代码，例如不需要兼容 `ie6-9` 时我们可以直接使用 `Element.scrollIntoView()`。在刚才的学习中除了学习了回到顶部外，只需再学习一下获取元素所在 `y` 轴坐标或者高度就会 `一不小心顺手` 学习了滚动到页面各处。
 
-## 打赏&联系
+## 一起成长
 
-如果您感觉有收获，欢迎给我打赏，以激励我输出更多的优质内容。
+> 在困惑的城市里总少不了并肩同行的 `伙伴` 让我们一起成长。
 
-![打赏&联系](https://raw.githubusercontent.com/pushmetop/resource/master/donate/donate.png)
+* 如果您想让更多人看到文章可以点个 `点赞`。
+* 如果您想激励小二可以到 [Github](https://github.com/zhangxiangliang/30-seconds-for-everyday) 给个 `小星星`。
 
-> 本文原稿来自 [PushMeTop](https://github.com/pushmetop)
+> 本文原稿来自 [ZhangXiangLiang](https://github.com/zhangxiangliang)
